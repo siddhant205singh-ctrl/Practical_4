@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hands - Nonprofit Organization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="site-title">Helping Hands</h1>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="#mission">Mission</a>
+                <a href="#events">Events</a>
+                <a href="#donate">Donate</a>
+                <a href="#volunteer">Volunteer</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h2>Building stronger communities together</h2>
+                    <p class="lead">Helping Hands is a local nonprofit focused on providing education, meals, and support to families in need. Join us to make an impact.</p>
+                    <p>
+                        <a href="#donate" class="btn primary">Donate</a>
+                        <a href="#volunteer" class="btn">Volunteer</a>
+                    </p>
+                </div>
+                <div class="hero-media">
+                    <img class="hero-img" src="hero-people.svg" alt="Volunteers serving the community">
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="section container">
+            <h3>Our Mission</h3>
+            <p>We empower underserved communities by providing education, food assistance, and skills training. Our programs focus on sustainable change and measurable outcomes that improve lives.</p>
+            <ul class="mission-list">
+                <li>Education programs for children and adults</li>
+                <li>Weekly food distribution and community meals</li>
+                <li>Job-skill workshops and mentoring</li>
+            </ul>
+        </section>
+
+        <section id="events" class="section container">
+            <h3>Upcoming Events</h3>
+            <div class="events-grid">
+                <article class="event-card">
+                    <img src="ngo2.avif" alt="Community meal" />
+                    <h4>Community Meal</h4>
+                    <time datetime="2025-12-05">Dec 5, 2025</time>
+                    <p>Join us for a free community meal and resource fair. All are welcome.</p>
+                </article>
+                <article class="event-card">
+                    <img src="ngo3.jpg" alt="Clothing drive" />
+                    <h4>Winter Clothing Drive</h4>
+                    <time datetime="2025-12-12">Dec 12, 2025</time>
+                    <p>Drop off new or gently used winter clothing at our center.</p>
+                </article>
+                <article class="event-card">
+                    <img src="ngo1.jpeg" alt="Skills workshop" />
+                    <h4>Skills Workshop: Resume Building</h4>
+                    <time datetime="2026-01-10">Jan 10, 2026</time>
+                    <p>A hands-on workshop to help job seekers craft strong resumes and cover letters.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="donate" class="section container">
+            <h3>Donate</h3>
+            <p>Your support keeps our programs running. We accept one-time and monthly donations. Suggested amounts are shown below — any gift helps.</p>
+
+            <div class="donation-options">
+                <div class="donation-card">
+                    <img src="donate.svg" alt="Donate $10" class="donation-icon"/>
+                    <h4>$10</h4>
+                    <p>Provides hot meals for 5 people.</p>
+                    <button class="btn">Give $10</button>
+                </div>
+                <div class="donation-card">
+                    <img src="donate.svg" alt="Donate $25" class="donation-icon"/>
+                    <h4>$25</h4>
+                    <p>Supplies learning materials for a child.</p>
+                    <button class="btn">Give $25</button>
+                </div>
+                <div class="donation-card">
+                    <img src="donate.svg" alt="Donate $50" class="donation-icon"/>
+                    <h4>$50</h4>
+                    <p>Supports a skills workshop attendee.</p>
+                    <button class="btn">Give $50</button>
+                </div>
+            </div>
+
+            <p class="donation-note"></p>
+        </section>
+
+        <section id="volunteer" class="section container">
+            <h3>Volunteer Opportunities</h3>
+            <p>Volunteers power our work. We have weekly, weekend, and event-based roles available.</p>
+            <ul>
+                <li>Meal prep and distribution</li>
+                <li>Tutoring and mentoring</li>
+                <li>Event setup and logistics</li>
+            </ul>
+
+            <h4>Sign up to volunteer</h4>
+            <div class="volunteer-grid">
+                <div class="volunteer-media">
+                    <img src="ngo4.jpeg" alt="Volunteer" />
+                </div>
+                <form class="volunteer-form" action="#" method="post" aria-label="Volunteer sign up">
+                    <label for="name">Full name</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="role">Preferred role</label>
+                    <select id="role" name="role">
+                        <option>Meal prep</option>
+                        <option>Tutoring</option>
+                        <option>Event support</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label for="notes">Notes (availability, skills)</label>
+                    <textarea id="notes" name="notes" rows="4"></textarea>
+
+                    <button class="btn primary" type="submit">Sign up</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="section container">
+            <h3>Contact Us</h3>
+            <p>Questions? Email us at <a href="mailto:info@helpinghands.org">info@helpinghands.org</a> or call 9214556654.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Helping Hands. All rights reserved.</p>
+            <p class="small">Helping Hands is a registered nonprofit. Donations may be tax-deductible.</p>
+        </div>
+    </footer>
+</body>
+</html>
